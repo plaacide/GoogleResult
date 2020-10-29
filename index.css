@@ -1,0 +1,107 @@
+body{
+    font-family: "Product Sans";
+}
+
+ .search-Bar {
+    width: 100%;
+    display: flex;
+     margin-top: 25px;
+     height:65px ;
+}
+
+ .search-Bar .logo{
+     padding: 4px 28px 0 30px;
+
+ }
+
+ .search-Bar .bar input{
+     height: 44px;
+     width: 690px;
+     display: flex;
+     border-radius: 24px;
+     border: 1px solid #dfe1e5;
+ }
+
+.search-Bar .bar input:hover{
+    -webkit-box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.1);
+}
+
+.subMenu{
+    margin-left: 8%;
+    overflow: hidden;
+}
+
+.subMenu div {
+    display: inline-flex;
+    padding: 10px 10px;
+}
+
+.subMenu div span {
+    color: darkgrey;
+    border-bottom: 4px solid #4285F4;
+    display: block;
+    text-align: center;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+
+.first .active{
+    border-bottom: 4px solid #4285F4;
+}
+
+.result{
+    margin-left: 8%;
+}
+
+.one-result{
+    width: 650px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.one-result span {
+    font-size: 13px;
+}
+.one-result h3{
+   text-decoration: none;
+    margin: 0px;
+}
+.one-result h3 a{
+    font-family: "Product Sans Light";
+    text-decoration: none;
+}
+
+.box {
+    width:60%;
+    height: 350px;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.content-box{
+    display: inline-flex;
+    width: 400px;
+    border-bottom: 1px solid #dadce0;
+}
+.content-box video {
+    width: 120px;
+    height: 90px;
+    position: relative;
+    padding: 10px;
+    margin-top: -15px;
+
+}
+
+.content-box .titleVideo{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.titleVideo span{
+    margin-bottom: 50px;
+}
